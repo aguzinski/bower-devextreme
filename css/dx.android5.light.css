@@ -1,4 +1,4 @@
-/*! 
+/*!
 * DevExtreme
 * Version: 15.2.4
 * Build date: Dec 8, 2015
@@ -2187,7 +2187,7 @@
 {
   font-family: 'DXIcons';
   src: url(icons/dxicons.eot);
-  src: url(icons/dxicons.eot) format('embedded-opentype'),url(icons/dxicons.woff) format('woff'),url(icons/dxicons.ttf) format('truetype');
+  src: url(icons/dxicons.eot) format('embedded-opentype'),local(icons/dxicons.woff) format('woff'),src(../fonts/dxicons.woff) format('woff'),local(icons/dxicons.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -8563,7 +8563,7 @@
   font-size: 0;
   color: #8f8f8f;
 }
-.dx-calendar-body th:first-letter 
+.dx-calendar-body th:first-letter
 {
   font-size: 14px;
 }
